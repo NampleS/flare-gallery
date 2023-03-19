@@ -18,6 +18,7 @@ export const BgHorizontalContainer = styled.div`
 	height: 100vh;
 	z-index: -5;
 	max-width: 1355px;
+	overflow: hidden;
 `;
 
 export const BgSmallCircle = styled.div`
