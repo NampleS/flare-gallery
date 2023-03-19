@@ -18,6 +18,10 @@ export const BgHorizontalContainer = styled.div`
 	height: 100vh;
 	z-index: -5;
 	max-width: 1355px;
+
+	@media only screen and (min-width: 1350px) {
+		overflow: hidden;
+	}
 `;
 
 export const BgSmallCircle = styled.div`
@@ -32,7 +36,6 @@ export const BgSmallCircle = styled.div`
 	background-color: #2d2d2d;
 	opacity: 100%;
 	transition: opacity 0.5s ease-in-out;
-	overflow-x: hidden;
 
 	@media screen and (max-width: 1400px) {
 		opacity: 0%;
@@ -57,7 +60,6 @@ export const BgCircle = styled.div`
 	height: auto;
 	background-color: #2d2d2d;
 	border-radius: 100%;
-	overflow-x: hidden;
 `;
 
 export const EntireWidth = styled.div`
