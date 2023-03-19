@@ -87,6 +87,7 @@ function GalleryContainer() {
 										<GalleryVideo
 											src={one}
 											muted
+											playsInline
 											autoPlay={true}
 											loop={true}
 											itemType="video/mp4"
