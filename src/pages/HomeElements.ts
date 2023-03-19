@@ -32,6 +32,7 @@ export const BgSmallCircle = styled.div`
 	background-color: #2d2d2d;
 	opacity: 100%;
 	transition: opacity 0.5s ease-in-out;
+	overflow-x: hidden;
 
 	@media screen and (max-width: 1400px) {
 		opacity: 0%;
@@ -56,6 +57,7 @@ export const BgCircle = styled.div`
 	height: auto;
 	background-color: #2d2d2d;
 	border-radius: 100%;
+	overflow-x: hidden;
 `;
 
 export const EntireWidth = styled.div`
