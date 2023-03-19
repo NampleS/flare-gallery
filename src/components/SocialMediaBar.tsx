@@ -1,5 +1,5 @@
 import { Variants } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { ReactComponent as DiscordLogo } from "../img/social-media--discord.svg";
 import { ReactComponent as TwitterLogo } from "../img/social-media--twitter.svg";
@@ -85,7 +85,16 @@ const discordExpandText: Variants = {
 };
 
 function SocialMediaBar() {
+	const [isMobile, setIsMobile] = useState<boolean>();
 	const [discordOpen, setDiscordOpen] = useState(false);
+
+	useEffect(() => {
+		if (window.innerWidth < 480) {
+			setIsMobile(true);
+		} else {
+			setIsMobile(false);
+		}
+	}, []);
 
 	return (
 		<NavBar>
@@ -96,17 +105,23 @@ function SocialMediaBar() {
 				target="_blank"
 				href="https://discord.gg/NmdeBpWCUw"
 				onHoverStart={() => {
-					setDiscordOpen(true);
+					if (!isMobile) {
+						setDiscordOpen(true);
+					} else {
+						setDiscordOpen(false);
+					}
 				}}
 				onHoverEnd={() => {
-					setDiscordOpen(false);
+					if (!isMobile) {
+						setDiscordOpen(false);
+					}
 				}}
 			>
 				<Circle>
 					<DiscordExpandText
 						variants={discordExpandText}
 						initial="default"
-						animate={discordOpen ? "onHover" : "default"}
+						animate={discordOpen && !isMobile ? "onHover" : "default"}
 					>
 						Join my server!
 					</DiscordExpandText>
@@ -114,19 +129,19 @@ function SocialMediaBar() {
 					<DiscordExpand
 						variants={discordExpandFill}
 						initial="default"
-						animate={discordOpen ? "onHover" : "default"}
+						animate={discordOpen && !isMobile ? "onHover" : "default"}
 					></DiscordExpand>
 					<CircleMotion
 						variants={discordExpandCircle}
 						initial="default"
-						animate={discordOpen ? "onHover" : "default"}
+						animate={discordOpen && !isMobile ? "onHover" : "default"}
 					/>
 				</Circle>
 			</LinkHover>
 			<LinkHover
 				variants={hoverVariants}
 				initial="default"
-				whileHover="onHover"
+				whileHover={!isMobile ? "onHover" : ""}
 				target="_blank"
 				href="https://twitter.com/s_nample"
 			>
@@ -137,7 +152,7 @@ function SocialMediaBar() {
 			<LinkHover
 				variants={hoverVariants}
 				initial="default"
-				whileHover="onHover"
+				whileHover={!isMobile ? "onHover" : ""}
 				target="_blank"
 				href="https://www.youtube.com/@namples2207"
 			>
