@@ -19,7 +19,7 @@ export const BgHorizontalContainer = styled.div`
 	z-index: -5;
 	max-width: 1355px;
 
-	@media only screen and (min-width: 1350px) {
+	@media only screen and (max-width: 1350px) {
 		overflow: hidden;
 	}
 `;
