@@ -101,7 +101,7 @@ function SocialMediaBar() {
 			<LinkHover
 				variants={hoverVariants}
 				initial="default"
-				whileHover="onHover"
+				whileHover={!isMobile ? "onHover" : "default"}
 				target="_blank"
 				href="https://discord.gg/NmdeBpWCUw"
 				onHoverStart={() => {
