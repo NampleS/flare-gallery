@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flare-gallery/static/css/main.5fa47e77.css",
-    "main.js": "/flare-gallery/static/js/main.e36962c2.js",
+    "main.js": "/flare-gallery/static/js/main.9ccb7b10.js",
     "static/media/50.mp4": "/flare-gallery/static/media/50.bdd657b9bf221e1258de.mp4",
     "static/media/58.gif": "/flare-gallery/static/media/58.7e2ec2bb9e90fc0ff748.gif",
     "static/media/27.png": "/flare-gallery/static/media/27.e886b069cdeea2311c7f.png",
@@ -93,10 +93,10 @@
     "static/media/down-arrow.svg": "/flare-gallery/static/media/down-arrow.f0ed9b388bd087106273d8ceb8b40105.svg",
     "static/media/up-arrow.svg": "/flare-gallery/static/media/up-arrow.670f4f34a02b3039066a3e8f243c55b4.svg",
     "main.5fa47e77.css.map": "/flare-gallery/static/css/main.5fa47e77.css.map",
-    "main.e36962c2.js.map": "/flare-gallery/static/js/main.e36962c2.js.map"
+    "main.9ccb7b10.js.map": "/flare-gallery/static/js/main.9ccb7b10.js.map"
   },
   "entrypoints": [
     "static/css/main.5fa47e77.css",
-    "static/js/main.e36962c2.js"
+    "static/js/main.9ccb7b10.js"
   ]
 }
