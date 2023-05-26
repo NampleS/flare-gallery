@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flare-gallery/static/css/main.2f0f6093.css",
-    "main.js": "/flare-gallery/static/js/main.e33ec20a.js",
+    "main.js": "/flare-gallery/static/js/main.82132887.js",
     "static/media/50.mp4": "/flare-gallery/static/media/50.bdd657b9bf221e1258de.mp4",
     "static/media/58.gif": "/flare-gallery/static/media/58.7e2ec2bb9e90fc0ff748.gif",
     "static/media/27.png": "/flare-gallery/static/media/27.e886b069cdeea2311c7f.png",
@@ -86,17 +86,17 @@
     "static/media/41.mp4": "/flare-gallery/static/media/41.1c4a7dea1fd9938f70b0.mp4",
     "static/media/66.jpg": "/flare-gallery/static/media/66.de45871701f366706d11.jpg",
     "static/media/71.png": "/flare-gallery/static/media/71.72bcdc78f88f67244882.png",
-    "static/media/social-media--discord.svg": "/flare-gallery/static/media/social-media--discord.7447bee3856b75e6f8ada495aaa5c3c7.svg",
+    "static/media/social-media--discord.svg": "/flare-gallery/static/media/social-media--discord.5ed4b74bf600616517bcd297538390ce.svg",
     "index.html": "/flare-gallery/index.html",
-    "static/media/social-media--twitter.svg": "/flare-gallery/static/media/social-media--twitter.5c1c90ab3fb86fb69238df314005c16a.svg",
-    "static/media/social-media--youtube.svg": "/flare-gallery/static/media/social-media--youtube.92d6b0b8b95ab648b79f9d2b052f5e9e.svg",
-    "static/media/down-arrow.svg": "/flare-gallery/static/media/down-arrow.f0ed9b388bd087106273d8ceb8b40105.svg",
-    "static/media/up-arrow.svg": "/flare-gallery/static/media/up-arrow.670f4f34a02b3039066a3e8f243c55b4.svg",
+    "static/media/social-media--twitter.svg": "/flare-gallery/static/media/social-media--twitter.64778d11b708019e16df4704c557c3f4.svg",
+    "static/media/social-media--youtube.svg": "/flare-gallery/static/media/social-media--youtube.a7be141db9974c3818bd12e10721db49.svg",
+    "static/media/down-arrow.svg": "/flare-gallery/static/media/down-arrow.126998f1f9fea47004293287a771b0b3.svg",
+    "static/media/up-arrow.svg": "/flare-gallery/static/media/up-arrow.a7741104fc3a150df064b78dd93ad1c9.svg",
     "main.2f0f6093.css.map": "/flare-gallery/static/css/main.2f0f6093.css.map",
-    "main.e33ec20a.js.map": "/flare-gallery/static/js/main.e33ec20a.js.map"
+    "main.82132887.js.map": "/flare-gallery/static/js/main.82132887.js.map"
   },
   "entrypoints": [
     "static/css/main.2f0f6093.css",
-    "static/js/main.e33ec20a.js"
+    "static/js/main.82132887.js"
   ]
 }
