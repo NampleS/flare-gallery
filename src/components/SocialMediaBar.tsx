@@ -37,7 +37,7 @@ const discordExpandFill: Variants = {
 		scaleX: 0,
 	},
 	onHover: {
-		scaleX: -100,
+		scaleX: -115,
 		transition: {
 			duration: 0.3,
 			ease: "easeInOut",
