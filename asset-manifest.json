@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flare-gallery/static/css/main.2f0f6093.css",
-    "main.js": "/flare-gallery/static/js/main.7721cc3d.js",
+    "main.js": "/flare-gallery/static/js/main.baaf97af.js",
     "static/media/50.mp4": "/flare-gallery/static/media/50.bdd657b9bf221e1258de.mp4",
     "static/media/58.gif": "/flare-gallery/static/media/58.7e2ec2bb9e90fc0ff748.gif",
     "static/media/27.png": "/flare-gallery/static/media/27.e886b069cdeea2311c7f.png",
@@ -93,10 +93,10 @@
     "static/media/down-arrow.svg": "/flare-gallery/static/media/down-arrow.126998f1f9fea47004293287a771b0b3.svg",
     "static/media/up-arrow.svg": "/flare-gallery/static/media/up-arrow.a7741104fc3a150df064b78dd93ad1c9.svg",
     "main.2f0f6093.css.map": "/flare-gallery/static/css/main.2f0f6093.css.map",
-    "main.7721cc3d.js.map": "/flare-gallery/static/js/main.7721cc3d.js.map"
+    "main.baaf97af.js.map": "/flare-gallery/static/js/main.baaf97af.js.map"
   },
   "entrypoints": [
     "static/css/main.2f0f6093.css",
-    "static/js/main.7721cc3d.js"
+    "static/js/main.baaf97af.js"
   ]
 }
